@@ -12,9 +12,7 @@ This project aims to execute the hackathon using all the knowledge and skills I'
 
 ## Steps to Run the Project Locally
 
-To run this project locally, follow these steps:
-
-### 1. Clone the repository
+### To run this project locally, follow these steps:
 
 If you haven't already, clone the project to your local machine:
 

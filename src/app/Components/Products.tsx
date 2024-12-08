@@ -23,7 +23,7 @@ const Products: React.FC<ProductProp> = ({ heading, direction, products }) => {
       <div
         className={`font-semibold md:mx-0 mx-5 md:text-[32px] text-2xl leading-[35.2px] ${
           direction === "center" ? "text-center" : "text-left"
-        } w-full text-[#272343]`}
+        } text-[#272343]`}
       >
         {heading}
       </div>

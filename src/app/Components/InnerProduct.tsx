@@ -15,7 +15,7 @@ const InnerProduct: React.FC<InnerProductProps> = ({
   description,
 }) => {
   return (
-    <div className="flex flex-wrap  items-center justify-center max-w-screen-xl mx-auto">
+    <div className="flex flex-wrap  items-center justify-center max-w-screen-xl mx-auto my-2">
       {/* Left Side: Product Image */}
       <div className="flex-shrink-0 md:w-1/2">
         <img
@@ -41,13 +41,13 @@ const InnerProduct: React.FC<InnerProductProps> = ({
         <hr className="border-gray-300 md:py-6 py-2 mt-8 w-full" />{" "}
         {/* Reduced margin above separator */}
         {/* Product Description */}
-        <p className="text-gray-600 md:text-lg text-sm leading-relaxed mb-[20px]">
+        <p className="text-gray-600 md:text-lg text-sm leading-relaxed mb-[20px] md:mx-0 mx-2">
           {" "}
           {/* Reduced margin below description */}
           {description}
         </p>
         {/* Add to Cart Button */}
-        <div className="flex items-center md:justify-start justify-center">
+        <div className="flex items-center justify-start md:ml-0 ml-4">
           <button className="flex items-center -ml-4 w-[170px] bg-[#029FAE] text-white py-4 px-6 rounded-xl hover:bg-gray-900 transition duration-300 md:my-12 my-5">
             <FaShoppingCart className="mr-3" />
             Add to Cart

@@ -27,9 +27,9 @@ const ProductPageSlider: React.FC<ProductProp> = ({
       {/* heading */}
       <div className="flex items-center justify-between md:mx-0 mx-2 ">
         <div
-          className={`font-bold md:text-[24px] text-sm md:leading-[33.89px] md:tracking-[5px] tracking-[1px] ${
+          className={`font-bold md:text-[24px] text-sm md:leading-[33.89px] md:tracking-[5px] tracking-[1px] whitespace-nowrap ${
             direction === "center" ? "text-center" : "text-left"
-          } w-full text-[#272343] uppercase`}
+          }  text-[#272343] uppercase`}
         >
           {heading}
         </div>

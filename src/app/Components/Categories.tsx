@@ -21,7 +21,7 @@ const Categories = () => {
   return (
     <section className="max-w-screen-xl mx-auto my-16">
       {/* heading  */}
-      <div className=" md:mx-0 mx-2 font-semibold md:text-[32px] text-2xl leading-[35.2px]text-left w-full text-[#272343]">
+      <div className=" md:mx-0 mx-2 font-semibold md:text-[32px] text-2xl leading-[35.2px] text-left  text-[#272343]">
         Top Categories
       </div>
       {/* categories  */}

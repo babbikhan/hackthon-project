@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { FaShoppingCart } from "react-icons/fa"; // Importing an icon from react-icons
 
@@ -48,10 +49,12 @@ const InnerProduct: React.FC<InnerProductProps> = ({
         </p>
         {/* Add to Cart Button */}
         <div className="flex items-center justify-start md:ml-0 ml-4">
-          <button className="flex items-center -ml-4 w-[170px] bg-[#029FAE] text-white py-4 px-6 rounded-xl hover:bg-gray-900 transition duration-300 md:my-12 my-5">
-            <FaShoppingCart className="mr-3" />
-            Add to Cart
-          </button>
+          <Link href={"/cart"}>
+            <button className="flex items-center -ml-4 w-[170px] bg-[#029FAE] text-white py-4 px-6 rounded-xl hover:bg-gray-900 transition duration-300 md:my-12 my-5">
+              <FaShoppingCart className="mr-3" />
+              Add to Cart
+            </button>
+          </Link>
         </div>
       </div>
     </div>

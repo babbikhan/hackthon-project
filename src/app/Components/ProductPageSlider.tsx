@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ProductCard from "./ProductCard";
 import ProductCardSlider from "./ProductCardSlider";
 
@@ -33,11 +34,13 @@ const ProductPageSlider: React.FC<ProductProp> = ({
         >
           {heading}
         </div>
-        <div
-          className={`font-bold underline text-[14px] leading-[21.78px] tracking-[2px] text-right w-full text-[#272343]`}
-        >
-          View all
-        </div>
+        <Link href={"/products"}>
+          <div
+            className={`font-bold underline text-[14px] leading-[21.78px] tracking-[2px] text-right w-full text-[#272343]`}
+          >
+            View all
+          </div>
+        </Link>
       </div>
 
       {/* products */}

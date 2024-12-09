@@ -93,7 +93,7 @@ export default function ProductsPage() {
   ];
 
   return (
-    <div className="my-10">
+    <div className="md:my-10 ">
       <Products direction="left" heading="All Products" products={products1} />
     </div>
   );

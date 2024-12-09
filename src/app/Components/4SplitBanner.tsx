@@ -46,19 +46,18 @@ const FourSplitBanner = () => {
         {banners.map((banner, index) => (
           <div
             key={index}
-            className="w-[300px] h-[244px] bg-[#F9F9F9] flex flex-col items-start justify-center p-6"
+            className="md:w-[300px] md:mx-0 mx-4 h-[244px] bg-[#F9F9F9] flex flex-col md:items-start items-center justify-center p-12"
           >
             {/* Banner Image with width and height 24x24, moved down slightly */}
-            <h3 className="mb-3 text-left mx-7">{banner.icon}</h3>
-
+            <div className="mb-3  ">{banner.icon}</div>
             {/* Title - Left aligned with reduced padding */}
-            <h3 className="text-lg text-[#007580] font-inter mb-1 text-left mx-7">
+            <div className="text-lg  text-[#007580] font-inter mb-1 ">
               {banner.title}
-            </h3>
+            </div>
 
             {/* Description - Left aligned with reduced padding */}
             <p
-              className="text-sm text-[#007580] text-left mx-7 overflow-hidden whitespace-normal"
+              className="text-sm text-[#007580] md:text-left text-center   overflow-hidden whitespace-normal"
               style={{
                 WebkitLineClamp: 3,
                 display: "-webkit-box",

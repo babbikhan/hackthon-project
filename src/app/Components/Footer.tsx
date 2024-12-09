@@ -28,25 +28,25 @@ const Footer = () => {
           <div className="flex items-center justify-center space-x-4 mt-4">
             <div className="group">
               <FaFacebookF
-                className="text-[#626370] cursor-pointer group-hover:text-[#007580] border border-white group-hover:border-[#007580] rounded-full p-1.5 transition-transform duration-300"
+                className="text-[#626370] cursor-pointer group-hover:text-[#029FAE] border border-white group-hover:border-[#029FAE] rounded-full p-1.5 transition-transform duration-300"
                 size={32}
               />
             </div>
             <div className="group">
               <FaTwitter
-                className="text-[#626370] cursor-pointer group-hover:text-[#007580] border border-white group-hover:border-[#007580] rounded-full p-1.5 transition-transform duration-300"
+                className="text-[#626370] cursor-pointer group-hover:text-[#029FAE] border border-white group-hover:border-[#029FAE] rounded-full p-1.5 transition-transform duration-300"
                 size={32}
               />
             </div>
             <div className="group">
               <FaInstagram
-                className="text-[#626370] cursor-pointer group-hover:text-[#007580] border border-white group-hover:border-[#007580] rounded-full p-1.5 transition-transform duration-300"
+                className="text-[#626370] cursor-pointer group-hover:text-[#029FAE] border border-white group-hover:border-[#029FAE] rounded-full p-1.5 transition-transform duration-300"
                 size={32}
               />
             </div>
             <div className="group">
               <FaPinterestP
-                className=" text-[#626370] cursor-pointer group-hover:text-[#007580] border border-white group-hover:border-[#007580] rounded-full p-1.5 transition-transform duration-300"
+                className=" text-[#626370] cursor-pointer group-hover:text-[#029FAE] border border-white group-hover:border-[#029FAE] rounded-full p-1.5 transition-transform duration-300"
                 size={32}
               />
             </div>
@@ -63,7 +63,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="text-gray-600 hover:text-[#007580] hover:underline"
+                className="text-gray-600 hover:text-[#029FAE] hover:underline"
               >
                 Sofa
               </a>
@@ -71,7 +71,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="text-gray-600 hover:text-[#007580] hover:underline"
+                className="text-gray-600 hover:text-[#029FAE] hover:underline"
               >
                 Armchair
               </a>
@@ -79,20 +79,20 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="text-gray-600 hover:text-[#007580] hover:underline"
+                className="text-gray-600 hover:text-[#029FAE] hover:underline"
               >
                 Wing Chair
               </a>
             </li>
             <li>
-              <a href="#" className="text-[#007580] hover:underline">
+              <a href="#" className="text-[#029FAE] hover:underline">
                 Desk Chair
               </a>
             </li>
             <li>
               <a
                 href="#"
-                className="text-gray-600 hover:text-[#007580] hover:underline"
+                className="text-gray-600 hover:text-[#029FAE] hover:underline"
               >
                 Wooden Chair
               </a>
@@ -100,7 +100,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="text-gray-600 hover:text-[#007580] hover:underline"
+                className="text-gray-600 hover:text-[#029FAE] hover:underline"
               >
                 Park Bench
               </a>
@@ -115,7 +115,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="text-gray-600 hover:text-[#007580] hover:underline"
+                className="text-gray-600 hover:text-[#029FAE] hover:underline"
               >
                 Help & Support
               </a>
@@ -123,7 +123,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="text-gray-600 hover:text-[#007580] hover:underline"
+                className="text-gray-600 hover:text-[#029FAE] hover:underline"
               >
                 Terms & Conditions
               </a>
@@ -131,7 +131,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="text-gray-600 hover:text-[#007580] hover:underline"
+                className="text-gray-600 hover:text-[#029FAE] hover:underline"
               >
                 Privacy Policy
               </a>
@@ -139,7 +139,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="text-gray-600 hover:text-[#007580] hover:underline"
+                className="text-gray-600 hover:text-[#029FAE] hover:underline"
               >
                 Help
               </a>
@@ -148,21 +148,21 @@ const Footer = () => {
         </div>
 
         {/* Newsletter Section */}
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center w-full">
           <h5 className="text-lg font-semibold text-[#272343] mb-4">
             Newsletter
           </h5>
-          <div className="flex items-center mb-4 space-x-2">
+          <div className="flex items-center justify-center w-full mb-4 space-x-2">
             <input
               type="email"
               placeholder="Your email"
               className="w-full p-2 border border-gray-300 rounded-md text-gray-700"
             />
-            <button className="bg-[#007580] text-white py-2 px-4 rounded-md hover:bg-[#005f63] transition-all">
+            <button className="bg-[#029FAE] border border-[#029FAE] hover:bg-white text-white hover:text-[#029FAE] py-2 px-4 rounded-md transition-all">
               Subscribe
             </button>
           </div>
-          <p className="text-sm text-gray-500 text-center">
+          <p className="md:text-sm text-xs text-gray-500 text-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
             tincidunt erat enim.
           </p>
@@ -170,15 +170,15 @@ const Footer = () => {
       </div>
 
       {/* Payment Method Logos */}
-      <div className="max-w-screen-xl mx-auto px-6 flex flex-wrap items-center md:justify-between justify-center mt-8 border-t border-gray-300 pt-2">
+      <div className="max-w-screen-xl mx-auto px-6 flex flex-wrap items-center md:justify-between justify-center md:gap-0 gap-y-2 md:mt-8 mt-4 border-t border-gray-300 pt-2">
         <div className="text-sm text-gray-500">
-          © 2021 - Blogy - Designed & Developed by Sultan Khan
+          © 2024 - Blogy - Designed & Developed by <strong>Sultan Khan</strong>
         </div>
         <div className="space-x-4">
           <img
             src="/payment.png"
             alt="Payment"
-            className="h-6 inline grayscale"
+            className="md:h-6 h-5 inline grayscale hover:grayscale-0"
           />
         </div>
       </div>

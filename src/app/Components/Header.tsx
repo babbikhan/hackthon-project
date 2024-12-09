@@ -11,12 +11,14 @@ const Header = () => {
     <>
       {/* First Header (Top Section) */}
       <header className="bg-[#272343] py-2 md:px-6 px-2">
-        <div className="max-w-screen-xl mx-auto flex font-inter justify-between items-center text-white md:text-sm text-xs font-light">
+        <div className="max-w-screen-xl mx-auto flex font-inter justify-between items-center text-white  font-light">
           {/* Left: Free Shipping Message */}
-          <div>Free Shipping On All Orders Over $50</div>
+          <div className="md:text-sm text-[11px]">
+            Free Shipping On All Orders Over $50
+          </div>
 
           {/* Right: Links with Icons */}
-          <div className="flex md:space-x-4 space-x-1.5">
+          <div className="flex md:space-x-4 space-x-3 md:text-sm text-xs">
             <div className="flex items-center space-x-1">
               <span>Eng</span>
               <FaChevronDown className="text-white" />

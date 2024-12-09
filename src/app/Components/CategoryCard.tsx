@@ -11,7 +11,7 @@ interface CategoryCardProps {
 // Define the component with typed props
 const CategoryCard: React.FC<CategoryCardProps> = ({ item }) => {
   return (
-    <div className=" flex flex-col items-center justify-center group transition-all duration-200 relative">
+    <div className=" flex flex-col items-center justify-center group transition-all duration-200 hover:scale-105 relative">
       {/* image  */}
       <div className="">
         <img src={item?.image} className="w-[414px] h-[400px] rounded-[8px] " />

@@ -61,27 +61,6 @@ export default function ProductPage() {
         heading="Featured Products"
         products={products1}
       />
-      {/* Rendering the product list view */}
-      {/* <section className="max-w-screen-xl mx-auto my-10">
-        <div className="flex justify-between items-center mb-4">
-          <h2 className="font-semibold text-[32px] leading-[35.2px] text-left w-full text-[#272343]">
-            Featured Products
-          </h2>
-         
-          <Link href="/all-products">
-            <button className="text-black text-[18px] hover:text-[#027f89] hover:underline font-bold px-6 py-2 whitespace-nowrap">
-              View All
-            </button>
-          </Link>
-        </div>
-       Products
-        <Products
-          direction="left" // Aligns content based on the "direction" prop
-          heading="" // No heading as it's already above
-          products={products1} // Pass the products array to the Products component
-        />
-      </section>
-        */}
     </div>
   );
 }

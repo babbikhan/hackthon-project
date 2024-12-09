@@ -18,18 +18,18 @@ interface ProductProp {
 
 const Products: React.FC<ProductProp> = ({ heading, direction, products }) => {
   return (
-    <section className="max-w-screen-xl mx-auto my-3">
+    <section className="max-w-screen-xl mx-auto md:mt-0 mt-5">
       {/* heading */}
       <div
-        className={`font-semibold md:mx-0 mx-5 md:text-[32px] text-2xl leading-[35.2px] ${
-          direction === "center" ? "text-center" : "text-left"
+        className={`font-semibold md:mx-0 mx-5 md:text-[32px]  text-2xl leading-[35.2px] ${
+          direction === "center" ? "text-center" : "md:text-left text-center"
         } text-[#272343]`}
       >
         {heading}
       </div>
 
       {/* products */}
-      <div className="flex flex-wrap items-center md:justify-between justify-center my-5">
+      <div className="flex flex-wrap items-center md:justify-between justify-center md:my-5">
         {products?.map((product) => (
           <ProductCard item={product} />
         ))}

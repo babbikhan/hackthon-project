@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div>
       {/* Main Contact Section */}
-      <div className="py-16 px-4 max-w-screen-xl mx-auto">
+      <div className="md:py-16 py-4 px-4 max-w-screen-xl mx-auto">
         {/* Heading and Paragraph */}
         <div className="text-center mb-12">
           <h1 className="text-[36px] font-bold text-[#272343] mb-4">
@@ -15,8 +15,8 @@ const Contact = () => {
           </h1>
           <p className="text-[16px] text-[#9F9F9F]">
             For More Information About Our Product & Services. Please Feel Free
-            To Drop Us. <br />
-            An Email Our Staff Always Be There To Help You Out. Do Not Hesitate!
+            To Drop Us. <br /> An Email Our Staff Always Be There To Help You
+            Out. Do Not Hesitate!
           </p>
         </div>
 
@@ -26,11 +26,13 @@ const Contact = () => {
           <div className="md:space-y-[80px] space-y-5">
             {/* Address */}
             <div className="flex items-center space-x-4">
-              <FaMapMarkerAlt className="text-2xl text-[#000000]" />
+              <div className="self-start ">
+                <FaMapMarkerAlt className="text-xl mt-1 text-[#000000]" />
+              </div>
               <div>
-                <h3 className="font-semibold text-lg text-[#000000]">
+                <div className="font-semibold text-lg text-[#000000]">
                   Address
-                </h3>
+                </div>
                 <p className="text-[#000000]">
                   236 5th SE Avenue, New York NY10000,
                   <br /> United States
@@ -40,9 +42,13 @@ const Contact = () => {
 
             {/* Phone */}
             <div className="flex items-center space-x-4">
-              <FaPhoneAlt className="text-2xl text-[#000000]" />
+              <div className="self-start">
+                <FaPhoneAlt className="text-xl mt-1 text-[#000000]" />
+              </div>
               <div>
-                <h3 className="font-semibold text-lg text-[#000000]">Phone</h3>
+                <div className="font-semibold text-lg text-[#000000]">
+                  Phone
+                </div>
                 <p className="text-[#000000]">Mobile: +(84) 546-6789</p>
                 <p className="text-[#000000]">Hotline: +(84) 456-6789</p>
               </div>
@@ -50,11 +56,14 @@ const Contact = () => {
 
             {/* Working Hours */}
             <div className="flex items-center space-x-4">
-              <FaRegClock className="text-2xl text-[#000000]" />
+              <div className="self-start">
+                <FaRegClock className="text-xl mt-1 text-[#000000]" />
+              </div>
+
               <div>
-                <h3 className="font-semibold text-lg text-[#000000]">
+                <div className="font-semibold text-lg text-[#000000]">
                   Working Hours
-                </h3>
+                </div>
                 <p className="text-[#000000]">Monday-Friday: 9:00 - 22:00</p>
                 <p className="text-[#000000]">Saturday-Sunday: 9:00 - 21:00</p>
               </div>
@@ -62,7 +71,7 @@ const Contact = () => {
           </div>
 
           {/* Right Side: Form */}
-          <div className="bg-white md:py-10 py-5 px-8 ">
+          <div className="bg-white md:py-10 py-5 md:px-8 ">
             <form>
               <div className="space-y-4">
                 {/* Name Field */}
@@ -140,7 +149,7 @@ const Contact = () => {
                 <div>
                   <button
                     type="submit"
-                    className="w-full py-3 bg-[#029FAE] text-white text-[16px] font-semibold rounded-md hover:bg-[#02a0aedb]"
+                    className="w-full py-3 bg-[#029FAE] border border-[#029FAE] hover:bg-white text-white hover:text-[#029FAE] text-[16px] font-semibold rounded-md "
                   >
                     Send Message
                   </button>

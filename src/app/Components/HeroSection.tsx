@@ -31,7 +31,7 @@ const HeroSection = () => {
             className="md:w-[434px] md:h-[584px] absolute top-[115px] left-[777px] "
           />
         </div>
-        <div className="md:hidden block w-full md:w-[50%] my-8 flex justify-center md:justify-start">
+        <div className="md:hidden block w-full md:w-[50%] my-8 flex justify-center md:justify-start ">
           <img
             src="/heroimage.png"
             className="md:w-[434px] w-[350px] md:h-[584px] h-[350px] object-contain"

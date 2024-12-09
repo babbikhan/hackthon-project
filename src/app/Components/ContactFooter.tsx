@@ -5,7 +5,7 @@ const ContactFooter = () => {
     <div className=" bg-gray-200 py-10 max-w-screen-xl mx-auto">
       <div className="flex flex-wrap items-center md:justify-around justify-center gap-4 md:mx-5 ">
         {/* Section 1 */}
-        <div className="flex items-start space-x-4">
+        <div className="flex items-start space-x-4 ">
           <img
             src="/trophy.png" // Replace with actual icon path
             alt="Address Icon"
@@ -20,7 +20,7 @@ const ContactFooter = () => {
         </div>
 
         {/* Section 2 */}
-        <div className="flex items-start space-x-4 ">
+        <div className="flex items-start space-x-4 md:my-0 my-5">
           <img
             src="/guarantee.png" // Replace with actual icon path
             alt="Phone Icon"

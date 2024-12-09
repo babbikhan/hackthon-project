@@ -27,7 +27,7 @@ const InnerProduct: React.FC<InnerProductProps> = ({
       </div>
 
       {/* Right Side: Product Info */}
-      <div className="flex flex-col justify-between md:w-1/2 w-full md:ml-0 ml-8 md:mt-0 mt-2">
+      <div className="flex flex-col justify-between md:w-1/2 w-full md:mr-0 mr-9 md:ml-0 ml-8 md:mt-0 mt-2">
         {/* Product Title */}
         <h2 className="md:text-[60px] text-2xl font-bold text-gray-800">
           {title}
@@ -39,18 +39,18 @@ const InnerProduct: React.FC<InnerProductProps> = ({
           </div>
         </div>
         {/* Separator */}
-        <hr className="border-gray-300 md:py-6 py-2 mt-8 w-full" />{" "}
+        <hr className="border-gray-300 md:py-6 py-2 md:mt-8 mt-5 w-full" />{" "}
         {/* Reduced margin above separator */}
         {/* Product Description */}
-        <p className="text-gray-600 md:text-lg text-sm leading-relaxed mb-[20px] md:mx-0 mx-2">
+        <p className="text-gray-600 md:text-lg text-sm leading-relaxed md:mb-[20px] md:mx-0 mx-2">
           {" "}
           {/* Reduced margin below description */}
           {description}
         </p>
         {/* Add to Cart Button */}
-        <div className="flex items-center justify-start md:ml-0 ml-4">
-          <Link href={"/cart"}>
-            <button className="flex items-center -ml-4 w-[170px] bg-[#029FAE] text-white py-4 px-6 rounded-xl hover:bg-gray-900 transition duration-300 md:my-12 my-5">
+        <div className="flex items-center justify-start md:w-fit w-full md:ml-0 ml-4">
+          <Link href={"/cart"} className="md:w-fit w-full">
+            <button className="flex items-center md:justify-start justify-center -ml-4 md:w-[170px] w-full bg-[#029FAE] border border-[#029FAE] text-white hover:text-[#029FAE] py-4 px-6 rounded-xl hover:bg-white transition duration-300 md:my-12 my-5">
               <FaShoppingCart className="mr-3" />
               Add to Cart
             </button>

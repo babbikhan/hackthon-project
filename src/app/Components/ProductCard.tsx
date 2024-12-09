@@ -17,7 +17,7 @@ interface ProductCardProps {
 const ProductCard: React.FC<ProductCardProps> = ({ item }) => {
   return (
     <Link href={"/product"}>
-      <div className=" flex flex-col items-center justify-center group transition-all duration-200 my-2 mx-2">
+      <div className=" flex flex-col items-center justify-center group transition-all duration-200 hover:scale-105 my-2 mx-2">
         {/* image  */}
         <div className="relative">
           <img

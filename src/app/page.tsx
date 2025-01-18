@@ -1,10 +1,13 @@
+import { client } from "../sanity/lib/client";
 import BrandSlider from "./Components/BrandSlider";
 import Categories from "./Components/Categories";
 import FiveBanner from "./Components/FiveBanner";
 import HeroSection from "./Components/HeroSection";
 import Products from "./Components/Products";
 
-export default function Home() {
+export default async function  Home() {
+  let products = await client.fetch('*[_type == "furniture"]')
+
   const products1 = [
     {
       image: "/librarystool.png",
@@ -96,20 +99,20 @@ export default function Home() {
 
   return (
     <main className="">
-      <HeroSection />
+     <HeroSection />
       <BrandSlider />
       <Products
         direction="left"
         heading="Featured Products"
-        products={products1}
+        products={products}
       />
-      <Categories />
+      <Categories  />
       <FiveBanner />
-      <Products
+      {/* <Products
         direction="center"
         heading="Our Products"
         products={products2}
-      />
+      />  */}
     </main>
   );
 }
